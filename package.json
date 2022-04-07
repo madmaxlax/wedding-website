@@ -37,7 +37,8 @@
     "eslint-plugin-prettier": "latest",
     "husky": "latest",
     "lint-staged": "latest",
-    "prettier": "latest"
+    "prettier": "latest",
+    "sass": "^1.49.11"
   },
   "husky": {
     "hooks": {

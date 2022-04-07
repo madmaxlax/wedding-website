@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './assets/css/index.css';
 import ScrollToTop from './components/ScrollToTop';
-import Routes from './Routes';
+import Routing from './Routing';
 import * as serviceWorker from './serviceWorker';
 import theme from './theme';
 
@@ -15,7 +15,7 @@ ReactDOM.render(
     <CssBaseline />
     <Router basename={process.env.PUBLIC_URL || '/'}>
       <ScrollToTop />
-      <Routes />
+      <Routing />
     </Router>
   </ThemeProvider>,
   document.querySelector('#root')
