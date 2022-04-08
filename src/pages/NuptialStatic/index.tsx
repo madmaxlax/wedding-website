@@ -112,7 +112,7 @@ export const NuptialStatic = () => {
               <div className="row row-bottom-padded-md animate-box">
                 <div className="col-md-6 col-md-offset-3 text-center">
                   <div className="col-md-5 col-sm-5 col-xs-5 nopadding">
-                    <img src="/images/max-lobster.jpg" className="img-responsive" alt="Max" />
+                    <img src="/images/max-lobster1.jpg" className="img-responsive" alt="Max" />
                     <h3>Max Struever</h3>
                   </div>
                   <div className="col-md-2 col-sm-2 col-xs-2 nopadding">
