@@ -1,4 +1,4 @@
-import React, { PropsWithChildren, ReactChild, ReactNode, useEffect } from 'react';
+import React, { PropsWithChildren, ReactChild, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Link } from '../../components';
 
@@ -6,8 +6,10 @@ declare global {
   // jquery stuff leftover from the template
   function whenLoaded(): void;
 }
+
 const Main = (
-  props: PropsWithChildren<ReactNode> & {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  props: PropsWithChildren<any> & {
     headerContent: ReactChild;
     headerBackgroundImages?: string[];
   }
