@@ -2,7 +2,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@mui/material/styles';
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import './assets/css/index.css';
 import ScrollToTop from './components/ScrollToTop';
 import Routing from './Routing';
