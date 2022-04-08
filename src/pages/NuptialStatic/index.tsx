@@ -136,6 +136,7 @@ export const NuptialStatic = () => {
                   <div className="col-md-12 text-center heading-section">
                     <h2>Are Getting Married</h2>
                     <p>
+                      {/* // eslint-disable-next-line max-len */}
                       <strong>Labor day weekend, on Sep 3, 2022 &mdash; Skaneateles, Upstate NY</strong>
                     </p>
                   </div>
