@@ -1,4 +1,4 @@
-import React, { PropsWithChildren, ReactNode, useEffect } from 'react';
+import React, { PropsWithChildren, ReactChild, ReactNode, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Link } from '../../components';
 
@@ -7,7 +7,10 @@ declare global {
   function whenLoaded(): void;
 }
 const Main = (
-  props: PropsWithChildren<ReactNode> & { headerContent: ReactNode; headerBackgroundImages?: string[] }
+  props: PropsWithChildren<ReactNode> & {
+    headerContent: ReactChild;
+    headerBackgroundImages?: string[];
+  }
 ) => {
   const { headerContent, children, headerBackgroundImages = ['/images/ring-pose.jpg'] } = props;
   const location = useLocation();
