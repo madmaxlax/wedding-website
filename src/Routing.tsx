@@ -13,76 +13,84 @@ const Routing = () => {
       <Route
         path={'/'}
         element={
-          <Main
-            headerBackgroundImages={['/images/ring-pose.jpg']}
-            headerContent={
-              <>
-                <h1>Mawiage</h1>
-                <h2>Doctors Clairence &amp; Max</h2>
-                <p>
-                  <span>3.Sep.2022</span>
-                </p>
-              </>
-            }
-          >
-            <MainPage />
-          </Main>
+          <>
+            <Main
+              headerBackgroundImages={['/images/ring-pose.jpg']}
+              headerContent={
+                <>
+                  <h1>Mawiage</h1>
+                  <h2>Doctors Clairence &amp; Max</h2>
+                  <p>
+                    <span>3.Sep.2022</span>
+                  </p>
+                </>
+              }
+            >
+              <MainPage />
+            </Main>
+          </>
         }
       />
 
       <Route
         path={'/when-and-where'}
         element={
-          <Main
-            headerContent={
-              <>
-                {/* <h1>Mawiage</h1> */}
-                <h2>Weekend Details!</h2>
-                <p>
-                  <span>When and Where</span>
-                </p>
-              </>
-            }
-          >
-            <WhenAndWherePage />
-          </Main>
+          <>
+            <Main
+              headerContent={
+                <>
+                  {/* <h1>Mawiage</h1> */}
+                  <h2>Weekend Details!</h2>
+                  <p>
+                    <span>When and Where</span>
+                  </p>
+                </>
+              }
+            >
+              <WhenAndWherePage />
+            </Main>
+          </>
         }
       />
       <Route
         path={'/transportation'}
         element={
-          <Main
-            headerContent={
-              <>
-                {/* <h1>Mawiage</h1> */}
-                <h2>Transportation</h2>
-                <p>
-                  <span>Getting to and around in the Finger Lakes</span>
-                </p>
-              </>
-            }
-          >
-            <TransportationPage />
-          </Main>
+          <>
+            <Main
+              headerContent={
+                <>
+                  {/* <h1>Mawiage</h1> */}
+                  <h2>Transportation</h2>
+                  <p>
+                    <span>Getting to and around in the Finger Lakes</span>
+                  </p>
+                </>
+              }
+            >
+              <TransportationPage />
+            </Main>
+          </>
         }
       />
 
       <Route
         path={'/accommodation'}
         element={
-          <Main
-            headerContent={
-              <>
-                {/* <h1>Mawiage</h1> */}
-                <h2>Accommodation Options</h2>
-                <p>
-                  <span>Where to stay for Labor Day Weekend</span>
-                </p>
-              </>
-            }
-          >
-            <AccommodationPage />
-          </Main>
+          <>
+            <Main
+              headerContent={
+                <>
+                  {/* <h1>Mawiage</h1> */}
+                  <h2>Accommodation Options</h2>
+                  <p>
+                    <span>Where to stay for Labor Day Weekend</span>
+                  </p>
+                </>
+              }
+            >
+              <AccommodationPage />
+            </Main>
+          </>
         }
       />
       {/*
