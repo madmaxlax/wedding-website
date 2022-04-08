@@ -406,7 +406,7 @@ export const NuptialStatic = () => {
                       </a>
                     </p> */}
                     <p>
-                      Template courtesy of
+                      Template courtesy of{' '}
                       <a href="https://freehtml5.co/preview/?item=nuptial-free-wedding-html5-template-using-bootstrap">
                         Nuptial Html
                       </a>
