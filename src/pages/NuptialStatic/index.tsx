@@ -20,7 +20,7 @@ export const NuptialStatic = () => {
             <div
               className="fh5co-cover text-center"
               data-stellar-background-ratio="0.5"
-              style={{ backgroundImage: 'url(/images/ring-pose.jpg)' }}
+              style={{ backgroundImage: 'url(/images/ring-pose.jpg)', backgroundPosition: 'center' }}
             >
               <div className="display-t">
                 <div className="display-tc">
@@ -137,7 +137,7 @@ export const NuptialStatic = () => {
                     <h2>Are Getting Married</h2>
                     <p>
                       {/* // eslint-disable-next-line max-len */}
-                      <strong>Labor day weekend, on Sep 3, 2022 &mdash; Skaneateles, Upstate NY</strong>
+                      <strong>Labor day weekend, Sep 3, 2022 &mdash; Skaneateles, Upstate NY</strong>
                     </p>
                   </div>
                 </div>
