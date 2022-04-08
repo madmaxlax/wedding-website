@@ -1,22 +1,15 @@
 import React from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
-import Minimal from './layouts/Minimal/Minimal';
-import { MinimalPage } from './pages/MinimalPage';
+import { NuptialStatic } from './pages/NuptialStatic';
 
 const Routing = () => {
   return (
     <Routes>
-      <Route
-        element={
-          <Minimal>
-            <MinimalPage />
-          </Minimal>
-        }
-        path={'/'}
-      />
+      <Route element={<NuptialStatic />} path={'/'} />
       {/*
       <RouteWithLayout component={MainPage} exact layout={Main} path="/main/:pageName" />
-      <RouteWithLayout component={NotMadeYet} exact layout={Minimal} layoutprops={{}} path="/404-not-found" /> */}
+      <RouteWithLayout component={NotMadeYet} exact layout={Minimal} 
+      layoutprops={{}} path="/404-not-found" /> */}
       <Route
         element={
           <Navigate
