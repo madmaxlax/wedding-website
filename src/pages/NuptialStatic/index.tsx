@@ -49,7 +49,7 @@ export const NuptialStatic = () => {
                   <i></i>
                 </a>
                 <h1 id="fh5co-logo">
-                  <a href="/">Home</a>
+                  <a href="/">Gettin&apos; Hitched Upstate</a>
                 </h1>
                 {/* <!-- START #fh5co-menu-wrap --> */}
                 <nav id="fh5co-menu-wrap" role="navigation">
@@ -334,7 +334,7 @@ export const NuptialStatic = () => {
 
           <div
             id="fh5co-started"
-            style={{ backgroundImage: 'url(images/cover_bg_2.jpg);' }}
+            style={{ backgroundImage: 'url(images/cover_bg_2.jpg)' }}
             data-stellar-background-ratio="0.5"
           >
             <div className="overlay"></div>
