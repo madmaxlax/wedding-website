@@ -1,14 +1,16 @@
 import React, { useEffect } from 'react';
-// import '../../assets/sass/bootstrap.scss';
-// import '../../assets/sass/style.scss';
+import '../../assets/sass/bootstrap.scss';
+import '../../assets/sass/style.scss';
 // import '../../assets/sass/_bootstrap-compass.scss';
 // import '../../assets/sass/_bootstrap-mincer.scss';
 // import '../../assets/sass/_bootstrap-sprockets.scss';
 declare global {
+  // jquery stuff leftover from the template
   function whenLoaded(): void;
 }
 export const NuptialStatic = () => {
   useEffect(() => {
+    // jquery stuff leftover from the template
     whenLoaded();
   }, []);
   return (
