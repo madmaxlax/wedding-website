@@ -14,6 +14,7 @@ const Routing = () => {
         path={'/'}
         element={
           <Main
+            headerBackgroundImages={['/images/ring-pose.jpg']}
             headerContent={
               <>
                 <h1>Mawiage</h1>
