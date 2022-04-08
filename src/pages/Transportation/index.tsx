@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../assets/sass/bootstrap.scss';
 import '../../assets/sass/style.scss';
+import { MapEmbed } from '../Accommodation/MapEmbed';
 // import '../../assets/sass/_bootstrap-compass.scss';
 // import '../../assets/sass/_bootstrap-mincer.scss';
 // import '../../assets/sass/_bootstrap-sprockets.scss';
@@ -57,13 +58,7 @@ export const TransportationPage = () => {
           </div>
           <div className="row">
             <div className="col-md-12">
-              <div id="map" className="fh5co-map">
-                <iframe
-                  src="https://www.google.com/maps/d/u/0/embed?mid=1XzQSxnPg2KxNUmi35xLiUCDjpRBed58W&ehbc=2E312F"
-                  width="100%"
-                  height="480"
-                ></iframe>
-              </div>
+              <MapEmbed />
             </div>
           </div>
         </div>

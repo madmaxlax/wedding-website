@@ -23,7 +23,7 @@ const Main = (
       '/images/max-claire-roof.jpg',
       '/images/max-claire-ravens.jpg',
       '/images/max-claire-upside-down.jpg',
-      '/images/max-claire-nasty-women.jpg.jpg',
+      '/images/max-claire-nasty-women.jpg',
       '/images/biden-haris-day.jpg',
     ],
   } = props;
