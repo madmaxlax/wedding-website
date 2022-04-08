@@ -20,17 +20,17 @@ export const NuptialStatic = () => {
             <div
               className="fh5co-cover text-center"
               data-stellar-background-ratio="0.5"
-              style={{ backgroundImage: 'url(images/cover_bg_1.jpg);' }}
+              style={{ backgroundImage: 'url(/images/ring-pose.jpg)' }}
             >
               <div className="display-t">
                 <div className="display-tc">
                   <div className="container">
                     <div className="col-md-10 col-md-offset-1">
                       <div className="animate-box">
-                        <h1>The Wedding</h1>
-                        <h2>Jack &amp; Rose</h2>
+                        <h1>Mawiage</h1>
+                        <h2>Doctors Clairence &amp; Max</h2>
                         <p>
-                          <span>28.12.2017</span>
+                          <span>3.Sep.2022</span>
                         </p>
                       </div>
                     </div>
@@ -47,7 +47,7 @@ export const NuptialStatic = () => {
                   <i></i>
                 </a>
                 <h1 id="fh5co-logo">
-                  <a href="index.html">Nuptial</a>
+                  <a href="/">Home</a>
                 </h1>
                 {/* <!-- START #fh5co-menu-wrap --> */}
                 <nav id="fh5co-menu-wrap" role="navigation">
@@ -112,12 +112,8 @@ export const NuptialStatic = () => {
               <div className="row row-bottom-padded-md animate-box">
                 <div className="col-md-6 col-md-offset-3 text-center">
                   <div className="col-md-5 col-sm-5 col-xs-5 nopadding">
-                    <img
-                      src="images/groom.jpg"
-                      className="img-responsive"
-                      alt="Free HTML5 Bootstrap Template by FreeHTML5.co"
-                    />
-                    <h3>Jack Wood</h3>
+                    <img src="/images/max-lobster.jpg" className="img-responsive" alt="Max" />
+                    <h3>Max Struever</h3>
                   </div>
                   <div className="col-md-2 col-sm-2 col-xs-2 nopadding">
                     <h2 className="amp-center">
@@ -126,11 +122,12 @@ export const NuptialStatic = () => {
                   </div>
                   <div className="col-md-5 col-sm-5 col-xs-5 nopadding">
                     <img
-                      src="images/bride.jpg"
+                      src="/images/sleepy-doctor.png
+                      "
                       className="img-responsive"
-                      alt="Free HTML5 Bootstrap Template by FreeHTML5.co"
+                      alt="Claire"
                     />
-                    <h3>Rose Thomas</h3>
+                    <h3>Clairence Hennigan</h3>
                   </div>
                 </div>
               </div>
@@ -139,7 +136,7 @@ export const NuptialStatic = () => {
                   <div className="col-md-12 text-center heading-section">
                     <h2>Are Getting Married</h2>
                     <p>
-                      <strong>on Dec 28, 2017 &mdash; Boracay, Philippines</strong>
+                      <strong>Labor day weekend, on Sep 3, 2022 &mdash; Skaneateles, Upstate NY</strong>
                     </p>
                   </div>
                 </div>
@@ -207,7 +204,7 @@ export const NuptialStatic = () => {
               <div className="container">
                 <div className="row">
                   <div className="col-md-12 text-center">
-                    <h2>Jack &amp; Rose</h2>
+                    <h2>Claire &amp; Max</h2>
                   </div>
                   <div className="col-md-6 col-md-offset-3 text-center">
                     <p className="fh5co-social-icons">
@@ -228,15 +225,13 @@ export const NuptialStatic = () => {
                       </a>
                     </p>
                     <p>
-                      Copyright 2016 Free Html5 <a href="#">Module</a>. All Rights Reserved. <br />
-                      Made with <i className="icon-heart3"></i> by{' '}
-                      <a href="http://freehtml5.co/" target="_blank" rel="noreferrer">
-                        Freehtml5.co
-                      </a>{' '}
-                      / Demo Images:{' '}
-                      <a href="https://unsplash.com/" target="_blank" rel="noreferrer">
-                        Unsplash
+                      Template courtesy of
+                      <a href="https://freehtml5.co/preview/?item=nuptial-free-wedding-html5-template-using-bootstrap">
+                        Nuptial Html
                       </a>
+                      <br />
+                      Copyright 2022. All Rights Reserved. Made with derp and <i className="icon-heart3"></i> by{' '}
+                      <a href="https://maxstruever/">Max Struever</a>
                     </p>
                   </div>
                 </div>
