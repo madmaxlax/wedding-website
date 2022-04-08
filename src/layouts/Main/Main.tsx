@@ -65,9 +65,9 @@ const Main = (
           <header id="fh5co-header-section" className="sticky-banner">
             <div className="container">
               <div className="nav-header">
-                <Link to="#" className="js-fh5co-nav-toggle fh5co-nav-toggle dark">
+                <a href="#" className="js-fh5co-nav-toggle fh5co-nav-toggle dark" style={{ marginTop: 40 }}>
                   <i></i>
-                </Link>
+                </a>
                 <h1 id="fh5co-logo">
                   <Link underline="hover" to="/">
                     Gettin&apos; Hitched Upstate
@@ -85,13 +85,14 @@ const Main = (
                     <li className={location.pathname === '/accommodation' ? 'active' : ''}>
                       <Link to="/accommodation">Accommodation</Link>
                     </li>
-
                     <li className={location.pathname === '/transportation' ? 'active' : ''}>
                       <Link to="/transportation">Transportation</Link>
                     </li>
-
                     <li className={location.pathname === '/activities' ? 'active' : ''}>
                       <Link to="/activities">Activities</Link>
+                    </li>
+                    <li className={location.pathname === '/our-story' ? 'active' : ''}>
+                      <Link to="/our-story">Our Story</Link>
                     </li>
                     <li className={location.pathname === '/photo-gallery' ? 'active' : ''}>
                       <Link to="/photo-gallery">Photo Gallery</Link>

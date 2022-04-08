@@ -28,6 +28,11 @@ const theme = createTheme({
     },
   },
   components: {
+    MuiLink: {
+      defaultProps: {
+        underline: 'hover',
+      },
+    },
     MuiButton: {
       //custom variants
       variants: [

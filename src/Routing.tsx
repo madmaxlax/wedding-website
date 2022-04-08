@@ -4,6 +4,7 @@ import Main from './layouts/Main/Main';
 import { AccommodationPage } from './pages/Accommodation';
 import { MainPage } from './pages/MainPage';
 import { NotMadeYet } from './pages/NotMadeYet';
+import { OurStoryPage } from './pages/OurStory';
 import { TransportationPage } from './pages/Transportation';
 import { WhenAndWherePage } from './pages/WhenAndWhere';
 
@@ -72,7 +73,6 @@ const Routing = () => {
           </>
         }
       />
-
       <Route
         path={'/accommodation'}
         element={
@@ -89,6 +89,26 @@ const Routing = () => {
               }
             >
               <AccommodationPage />
+            </Main>
+          </>
+        }
+      />
+      <Route
+        path={'/our-story'}
+        element={
+          <>
+            <Main
+              headerContent={
+                <>
+                  {/* <h1>Mawiage</h1> */}
+                  <h2>Our Story</h2>
+                  <p>
+                    <span>Met before the pandy and got stuck together</span>
+                  </p>
+                </>
+              }
+            >
+              <OurStoryPage />
             </Main>
           </>
         }
