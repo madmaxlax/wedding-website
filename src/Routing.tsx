@@ -2,6 +2,7 @@ import React from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import Main from './layouts/Main/Main';
 import { AccommodationPage } from './pages/Accommodation';
+import { ActivitiesPage } from './pages/Activities';
 import { MainPage } from './pages/MainPage';
 import { NotMadeYet } from './pages/NotMadeYet';
 import { OurStoryPage } from './pages/OurStory';
@@ -19,8 +20,8 @@ const Routing = () => {
               headerBackgroundImages={['/images/ring-pose.jpg']}
               headerContent={
                 <>
-                  <h1>Mawiage</h1>
-                  <h2>Doctors Clairence &amp; Max</h2>
+                  <h1>We&apos;re Getting married!</h1>
+                  <h2>Claire Hennigan &amp; Max Struever</h2>
                   <p>
                     <span>3.Sep.2022</span>
                   </p>
@@ -69,6 +70,26 @@ const Routing = () => {
               }
             >
               <TransportationPage />
+            </Main>
+          </>
+        }
+      />
+      <Route
+        path={'/activities'}
+        element={
+          <>
+            <Main
+              headerContent={
+                <>
+                  {/* <h1>Mawiage</h1> */}
+                  <h2>Activities</h2>
+                  <p>
+                    <span>Ideas on what to do while yall are in town besides wedding things</span>
+                  </p>
+                </>
+              }
+            >
+              <ActivitiesPage />
             </Main>
           </>
         }

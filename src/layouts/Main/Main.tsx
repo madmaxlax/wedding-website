@@ -88,6 +88,9 @@ const Main = (
                     <li className={location.pathname === '/transportation' ? 'active' : ''}>
                       <Link to="/transportation">Transportation</Link>
                     </li>
+                    {/* <li className={location.pathname === '/wedding-party' ? 'active' : ''}>
+                      <Link to="/wedding-party">Wedding-Party</Link>
+                    </li> */}
                     <li className={location.pathname === '/activities' ? 'active' : ''}>
                       <Link to="/activities">Activities</Link>
                     </li>
@@ -96,16 +99,16 @@ const Main = (
                     </li>
                     <li className={location.pathname === '/photo-gallery' ? 'active' : ''}>
                       <Link to="/photo-gallery">Photo Gallery</Link>
-                      <ul className="fh5co-sub-menu">
+                      <ul className="fh5co-sub-menu" style={{ width: '500' }}>
                         <li>
-                          <Link to="/need-link">Serious Photos</Link>
+                          <a href="https://photos.app.goo.gl/PvqSWbQD7JycNDuq8" target="_blank" rel="noreferrer">
+                            Fun photos of us
+                          </a>
                         </li>
                         <li>
-                          <Link to="/funny-pics">Fun Ones</Link>
-                        </li>
-
-                        <li>
-                          <Link to="/add-your-own-photos">Add Your Own!</Link>
+                          <a href="https://photos.app.goo.gl/gr2JLo4v2Nt3cbSB9" target="_blank" rel="noreferrer">
+                            Upload yours!
+                          </a>
                         </li>
                       </ul>
                     </li>
@@ -148,8 +151,8 @@ const Main = (
                         Nuptial Html
                       </Link>
                       <br />
-                      Copyright 2022. All Rights Reserved. Made with derp and <i className="icon-heart3"></i> by{' '}
-                      <Link to="https://maxstruever/">Max Struever</Link>
+                      Copyright 2022. All Rights Reserved. Made with <i className="icon-heart3"></i> by{' '}
+                      <Link to="https://maxstruever.com/">Max Struever</Link>
                     </p>
                   </div>
                 </div>

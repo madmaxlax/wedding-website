@@ -2,9 +2,6 @@ import React from 'react';
 import '../../assets/sass/bootstrap.scss';
 import '../../assets/sass/style.scss';
 import { MapEmbed } from '../Accommodation/MapEmbed';
-// import '../../assets/sass/_bootstrap-compass.scss';
-// import '../../assets/sass/_bootstrap-mincer.scss';
-// import '../../assets/sass/_bootstrap-sprockets.scss';
 
 export const WhenAndWherePage = () => {
   return (
@@ -19,23 +16,28 @@ export const WhenAndWherePage = () => {
           <div className="row row-bottom-padded-md">
             <div className="col-md-6 text-center animate-box">
               <div className="wedding-events">
-                <div className="ceremony-bg" style={{ backgroundImage: 'url(images/the-bond.jpg)' }}></div>
+                <div className="ceremony-bg" style={{ backgroundImage: 'url(images/skan-brewery.png)' }}></div>
                 <div className="desc">
-                  <h3>Rehearsal Dinner @ The Bond 1835</h3>
+                  <h3>Welcome Drinks &amp; Rehearsal Dinner @ Skaneateles Brewery</h3>
                   <p>
-                    <strong>Friday, Sep 3, 5.00 PM - 9.00PM @ The Bond 1835</strong>
+                    <strong>Friday evening, Sep 3 @ Skaneateles Brewery</strong>
                   </p>
                   <p>
                     Drinks and rehearsal dinner at{' '}
-                    <a href="https://www.thebond1835.com/" target="_blank" rel="noreferrer">
-                      The Bond 1835
+                    <a href="https://skanbrewery.com/" target="_blank" rel="noreferrer">
+                      Skaneateles Brewery
                     </a>
                     . <br />
-                    It is on the east side of the lake, between the Hennigan home and the town of Skaneateles at the
-                    north tip of the lake.
+                    It is just a few minutes north of the town of Skaneateles. Folks can filter in at any time of the
+                    day as it is open to the public and a great spot to hang! Then it will be only us starting at 7pm,
+                    and we will have a food truck in for dinner from{' '}
+                    <a href="https://www.tossnfirepizza.com/" target="_blank" rel="noreferrer">
+                      Toss n Fire
+                    </a>
+                    .
                     <br />
-                    <a href="https://g.page/TheBond1835?share" target="_blank" rel="noreferrer">
-                      2498 E Lake Rd, Skaneateles, NY 13152
+                    <a href="https://g.page/skanbrewery?share" target="_blank" rel="noreferrer">
+                      4022 Mill Rd, Skaneateles, NY 13152
                     </a>
                   </p>
                 </div>
@@ -65,7 +67,8 @@ export const WhenAndWherePage = () => {
                 </div>
               </div>
             </div>
-
+          </div>
+          <div className="row row-bottom-padded-md">
             <div className="col-md-6 text-center animate-box">
               <div className="wedding-events">
                 <div className="ceremony-bg" style={{ backgroundImage: 'url(images/hennigan-lake.jpg)' }}></div>

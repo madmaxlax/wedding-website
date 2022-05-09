@@ -1,9 +1,8 @@
-import React from 'react';
-// import '../../assets/sass/_bootstrap-compass.scss';
-// import '../../assets/sass/_bootstrap-mincer.scss';
-// import '../../assets/sass/_bootstrap-sprockets.scss';
+import React, { useState } from 'react';
 
 export const Attending = () => {
+  const [name, setName] = useState('');
+  const [emailAddress, setEmailAddress] = useState('');
   return (
     <>
       <div
@@ -27,7 +26,16 @@ export const Attending = () => {
                     <label htmlFor="name" className="sr-only">
                       Name
                     </label>
-                    <input type="name" className="form-control" id="name" placeholder="Name" />
+                    <input
+                      type="text"
+                      className="form-control"
+                      id="name"
+                      value={name}
+                      onChange={(event) => {
+                        setName(event.target.value);
+                      }}
+                      placeholder="Name"
+                    />
                   </div>
                 </div>
                 <div className="col-md-4 col-sm-4">
@@ -35,17 +43,26 @@ export const Attending = () => {
                     <label htmlFor="email" className="sr-only">
                       Email
                     </label>
-                    <input type="email" className="form-control" id="email" placeholder="Email" />
+                    <input
+                      type="text"
+                      className="form-control"
+                      id="email"
+                      value={emailAddress}
+                      onChange={(event) => {
+                        setEmailAddress(event.target.value);
+                      }}
+                      placeholder="Email"
+                    />
                   </div>
                 </div>
                 <div className="col-md-4 col-sm-4">
                   <a
                     target="_blank"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScxtjYS0fPIHXClUlyRgmL6hZ3VZQUDtnNbWIwC1b-hs9iogw/viewform?entry.913552789=name&entry.1391953179=maxstruever@gmail"
+                    href={`https://docs.google.com/forms/d/e/1FAIpQLScxtjYS0fPIHXClUlyRgmL6hZ3VZQUDtnNbWIwC1b-hs9iogw/viewform?entry.913552789=${name}&entry.1391953179=${emailAddress}`}
                     className="btn btn-primary btn-block"
                     rel="noreferrer"
                   >
-                    I am Attending
+                    RSVP
                   </a>
                 </div>
               </form>
