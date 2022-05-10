@@ -10,21 +10,33 @@ export const OurStoryPage = () => {
     <>
       <div id="fh5co-when-where" className="fh5co-section-gray">
         <div className="container">
-          <div className="row">
-            <div className="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-              <h2>How it all came together</h2>
-            </div>
-          </div>
           <div className="row row-bottom-padded-md">
             <div className="col-md-12 text-center animate-box">
               <div className="wedding-events">
                 <div className="ceremony-bg" style={{ backgroundImage: 'url(images/max-claire-roof.jpg)' }}></div>
                 <div className="desc">
-                  <h3>Thea and JG set us up! </h3>
+                  <h3>A classic set up! </h3>
                   <p>
-                    <strong>Took us a couple of hangs then we got it goin&apos;</strong>
+                    Thea and JG invited us both to a brunch in early February 2020… Max brought a date. And the rest was
+                    history! Not quite, but after a few more rom-com worthy mishaps, a ski trip to Dorset, Vermont, a
+                    very earnest Google doc, and Max hosting a onesie/90s night party - our destiny was set!
                   </p>
-                  <p>{'...still working on this'}</p>
+                  <p>
+                    Then pandemic hit and we were incredibly thankful to have each other. Claire was in her first year
+                    of fellowship which came with the most intense hospital schedule on top of the intensity and
+                    uncertainty added by being in NYC at the beginning of Covid. Max worked from his small bedroom then
+                    would bike up to Claire&apos;s studio in the Upper West Side to hang out when Claire would finish
+                    her shifts. We cooked lots of dinners, had lots of outdoor park-hangs and take-away food, and
+                    continued to hang with Thea and JG (and Buddy).
+                  </p>
+                  <p>
+                    Things continued to go well together and we moved in to the coolest NYC apartment in the Summer of
+                    2021.
+                  </p>
+                  <p>
+                    Max proposed on the roof of the building during sunset, and hosting an anniversary onesie/90s night
+                    party with some surprise guests for Claire!
+                  </p>
                 </div>
               </div>
             </div>
