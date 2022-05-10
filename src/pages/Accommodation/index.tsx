@@ -18,13 +18,13 @@ export const AccommodationPage = () => {
               <div className="wedding-events">
                 <div className="ceremony-bg" style={{ backgroundImage: 'url(images/skan-lake.jpg)' }}></div>
                 <div className="desc">
-                  <h3>Lots of Options on Where to Stay</h3>
+                  <h3>Hold off on booking for now!</h3>
                   <p>
                     <strong>Inns, Lake House AirBnBs, and Motels!</strong>
                   </p>
                   <p>
                     {
-                      'Max and Mary-Ellen scooped up as many AirBnBs in the area that they could and are now "squatting" on them for you! Details to come. Check out the map below:'
+                      'Max and Mary-Ellen scooped up as many AirBnBs in the area that they could and are now "squatting" on them for everyone! Details to come.'
                     }
                   </p>
                   {/* <div style={{ height: 500, width: '100%' }}>
