@@ -9,6 +9,7 @@
     "@mui/icons-material": "^5.0.1",
     "@mui/material": "latest",
     "@mui/styles": "^5.0.1",
+    "@mui/x-data-grid": "^5.10.0",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@types/react-router-dom": "latest",

@@ -2,9 +2,6 @@ import React from 'react';
 import '../../assets/sass/bootstrap.scss';
 import '../../assets/sass/style.scss';
 import { MapEmbed } from './MapEmbed';
-// import '../../assets/sass/_bootstrap-compass.scss';
-// import '../../assets/sass/_bootstrap-mincer.scss';
-// import '../../assets/sass/_bootstrap-sprockets.scss';
 
 export const AccommodationPage = () => {
   return (
@@ -27,9 +24,12 @@ export const AccommodationPage = () => {
                   </p>
                   <p>
                     {
-                      'Max and Mary-Ellen snatched up as many AirBnBs in the area that they could and are now "squatting" on them for you! Details to come. Check out the map below:'
+                      'Max and Mary-Ellen scooped up as many AirBnBs in the area that they could and are now "squatting" on them for you! Details to come. Check out the map below:'
                     }
                   </p>
+                  {/* <div style={{ height: 500, width: '100%' }}>
+      <DataGrid rows={rows} columns={columns} />
+    </div> */}
                 </div>
               </div>
             </div>

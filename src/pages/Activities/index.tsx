@@ -16,10 +16,10 @@ export const ActivitiesPage = () => {
           <div className="row row-bottom-padded-md">
             <div className="col-md-12 text-center animate-box">
               <div className="wedding-events">
-                <div className="ceremony-bg" style={{ backgroundImage: 'url(images/max-claire-roof.jpg)' }}></div>
+                <div className="ceremony-bg" style={{ backgroundImage: 'url(images/skan-lake.jpg)' }}></div>
                 <div className="desc">
-                  <h3>Still working on this page! </h3>
-                  <p>But have a look at some things we&apos;ve listed on the map below:</p>
+                  <h3>Some suggestions, we will add more!</h3>
+
                   <p style={{ textAlign: 'left' }}>
                     <br />
                     Check out the main street of town for shopping and food

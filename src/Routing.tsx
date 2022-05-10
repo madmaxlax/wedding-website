@@ -3,6 +3,7 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import Main from './layouts/Main/Main';
 import { AccommodationPage } from './pages/Accommodation';
 import { ActivitiesPage } from './pages/Activities';
+import { GiftsPage } from './pages/Gifts';
 import { MainPage } from './pages/MainPage';
 import { NotMadeYet } from './pages/NotMadeYet';
 import { OurStoryPage } from './pages/OurStory';
@@ -130,6 +131,25 @@ const Routing = () => {
               }
             >
               <OurStoryPage />
+            </Main>
+          </>
+        }
+      />
+      <Route
+        path={'/gifts'}
+        element={
+          <>
+            <Main
+              headerContent={
+                <>
+                  <h2>Gifts?</h2>
+                  <p>
+                    <span>No gifts please!</span>
+                  </p>
+                </>
+              }
+            >
+              <GiftsPage />
             </Main>
           </>
         }

@@ -76,9 +76,9 @@ const Main = (
                 {/* <!-- START #fh5co-menu-wrap --> */}
                 <nav id="fh5co-menu-wrap" role="navigation">
                   <ul className="sf-menu" id="fh5co-primary-menu">
-                    <li className={location.pathname === '/' ? 'active' : ''}>
+                    {/* <li className={location.pathname === '/' ? 'active' : ''}>
                       <Link to="/">Home</Link>
-                    </li>
+                    </li> */}
                     <li className={location.pathname === '/when-and-where' ? 'active' : ''}>
                       <Link to="/when-and-where">When &amp; Where</Link>
                     </li>
@@ -96,6 +96,9 @@ const Main = (
                     </li>
                     <li className={location.pathname === '/our-story' ? 'active' : ''}>
                       <Link to="/our-story">Our Story</Link>
+                    </li>
+                    <li className={location.pathname === '/gifts' ? 'active' : ''}>
+                      <Link to="/gifts">Gifts?</Link>
                     </li>
                     <li className={location.pathname === '/photo-gallery' ? 'active' : ''}>
                       <Link to="/photo-gallery">Photo Gallery</Link>

@@ -24,7 +24,7 @@ export const OurStoryPage = () => {
                   <p>
                     <strong>Took us a couple of hangs then we got it goin&apos;</strong>
                   </p>
-                  <p>{'Add more here!'}</p>
+                  <p>{'...still working on this'}</p>
                 </div>
               </div>
             </div>
