@@ -29,16 +29,19 @@ export const TransportationPage = () => {
                     <a href="https://goo.gl/maps/8UVgHcK3538sso6A7" target="_blank" rel="noreferrer">
                       Skaneateles
                     </a>{' '}
-                    is the one of the eastern lakes among the Finger Lakes. It is about a 3.5 to 4 hour drive from NYC.
+                    is the one of the eastern most Finger Lakes. It is about a 3.5 to 4 hour drive from NYC.
                     <br />
-                    Syracuse is less than 40 minutes away, the easiest airport would be{' '}
+                    The closest airport is Syracuse{' '}
                     <a
                       href="https://www.momondo.com/flight-search/TPA-SYR/2022-09-02/2022-09-05?sort=bestflight_a"
                       target="_blank"
                       rel="noreferrer"
                     >
                       SYR
-                    </a>
+                    </a>{' '}
+                    (less than 40 minutes away).
+                    <br />
+                    For more flight options, Rochester is about an hour away.
                   </p>
                 </div>
               </div>
@@ -51,7 +54,11 @@ export const TransportationPage = () => {
                   <p>
                     <strong>Lots of driving!</strong>
                   </p>
-                  <p>{'We are working on transportation. TBD'}</p>
+                  <p>
+                    {
+                      'We will have transportation for the wedding and reception on Saturday Sept 3. More details to come.'
+                    }
+                  </p>
                 </div>
               </div>
             </div>

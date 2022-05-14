@@ -24,7 +24,7 @@ export const ActivitiesPage = () => {
                     Stroll around the village - Lots of cute shops and boutiques, as well as a few quintessential
                     Skaneateles food spots
                     <br />
-                    Food: Doug&apos;s Fish Fry is a popular spot for some quick but good seafood as well as milkshakes!
+                    Doug&apos;s Fish Fry is a popular spot for some quick but good seafood as well as milkshakes!
                     <br />
                     Valentine&#39;s Pizzeria
                     <br />

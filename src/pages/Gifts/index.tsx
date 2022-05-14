@@ -30,13 +30,13 @@ export const GiftsPage = () => {
                   <p>
                     Here are some of our favorite charities if you&apos;d like to make a donation in our names!
                     <br />
+                    <a href="https://www.plannedparenthood.org/" target="_blank" rel="noreferrer">
+                      Planned Parenthood
+                    </a>
+                    <br />
                     🔨{' '}
                     <a href="https://www.habitatchesapeake.org/" target="_blank" rel="noreferrer">
                       Chesapeake (Baltimore Area) Habitat for Humanity
-                    </a>
-                    <br />
-                    <a href="https://www.plannedparenthood.org/" target="_blank" rel="noreferrer">
-                      Planned Parenthood
                     </a>
                     <br />
                     ⚖️{' '}

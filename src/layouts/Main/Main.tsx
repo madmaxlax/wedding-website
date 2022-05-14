@@ -101,7 +101,9 @@ const Main = (
                       <Link to="/gifts">Gifts?</Link>
                     </li>
                     <li className={location.pathname === '/photo-gallery' ? 'active' : ''}>
-                      <Link to="/photo-gallery">Photo Gallery</Link>
+                      <a href="#" onClick={(e) => e.preventDefault()}>
+                        Photo Gallery
+                      </a>
                       <ul className="fh5co-sub-menu" style={{ width: '500' }}>
                         <li>
                           <a href="https://photos.app.goo.gl/PvqSWbQD7JycNDuq8" target="_blank" rel="noreferrer">
