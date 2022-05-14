@@ -22,7 +22,7 @@ const Routing = () => {
               headerContent={
                 <>
                   <h1>We&apos;re Getting married!</h1>
-                  <h2>Claire Hennigan &amp; Max Struever</h2>
+                  <h2>Claire &amp; Max</h2>
                   <p>
                     <span>3.Sep.2022</span>
                   </p>
@@ -125,7 +125,7 @@ const Routing = () => {
                   {/* <h1>Mawiage</h1> */}
                   <h2>Our Story</h2>
                   <p>
-                    <span>Met before the pandy and got stuck together</span>
+                    <span>Dated a bit and then got stuck together in lock-down</span>
                   </p>
                 </>
               }

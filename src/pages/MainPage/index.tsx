@@ -25,7 +25,7 @@ export const MainPage = () => {
                 </h2>
               </div>
               <div className="col-md-5 col-sm-5 col-xs-5 nopadding">
-                <img src="/images/claire-cyute-sq.png" className="img-responsive" alt="Claire" />
+                <img src="/images/claire-wine.jpeg" className="img-responsive" alt="Claire" />
                 <h3>Claire Hennigan</h3>
               </div>
             </div>
@@ -33,7 +33,7 @@ export const MainPage = () => {
           <div className="row animate-box">
             <div className="col-md-8 col-md-offset-2">
               <div className="col-md-12 text-center heading-section">
-                <h2>Are Getting Married</h2>
+                <h2>Are Getting Married!</h2>
                 <p>
                   {/* // eslint-disable-next-line max-len */}
                   <strong>Labor day weekend, Sep 3, 2022 &mdash; Skaneateles, Upstate NY</strong>

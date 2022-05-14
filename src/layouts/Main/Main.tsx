@@ -18,6 +18,7 @@ const Main = (
     headerContent,
     children,
     headerBackgroundImages = [
+      '/images/hawaii.jpeg',
       '/images/ring-pose.jpg',
       '/images/hennigan-lake.jpg',
       '/images/skantown.jpg',

@@ -39,6 +39,15 @@ export const GiftsPage = () => {
                       Chesapeake (Baltimore Area) Habitat for Humanity
                     </a>
                     <br />
+                    <a
+                      href="https://www.alz.org/get-involved-now/donate
+https://www.alz.org/get-involved-now/donate"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Alzheimer&apos;s Association
+                    </a>
+                    <br />
                     ⚖️{' '}
                     <a href="https://www.splcenter.org/" target="_blank" rel="noreferrer">
                       Southern Poverty Law Center
@@ -51,7 +60,8 @@ export const GiftsPage = () => {
                       'If you still feel so inclined, we do have some big life things coming up that we will need to put money toward:'
                     }
                     <br />
-                    Dr. Claire Hennigan has to pay for her medical board examinations this fall ($3000 😱 )
+                    Dr. Claire Hennigan has to pay for her pediatric critical care board examinations this fall ($3000
+                    😱 )
                     <br />
                     Our honeymoon
                     <br />
