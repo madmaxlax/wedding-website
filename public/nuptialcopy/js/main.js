@@ -141,7 +141,7 @@
 
 	// Update the count down every 1 second
 	var x = setInterval(function() {
-
+		if(document.getElementById("days")){
 	// Get todays date and time
 	var now = new Date().getTime();
 
@@ -168,7 +168,7 @@
 	if (distance < 0) {
 	 clearInterval(x);
 	 document.getElementById("demo").innerHTML = "The Wedding Ceremony is Over";
-	}
+	}}
 	}, 1000);
 
 	// Document on load.
