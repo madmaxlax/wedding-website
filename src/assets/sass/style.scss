@@ -333,7 +333,7 @@ figure {
 .sf-menu li.active{
 	a{
 		&:hover,&:focus{
-			color: $brand-primary;
+			color: $brand-primary !important;
 		} 
 	}
 }
@@ -343,13 +343,13 @@ figure {
 .sf-menu ul ul li,
 .sf-menu li:hover,
 .sf-menu li.sfHover  {
-	background: transparent;
+	background: transparent !important;
 }
 .sf-menu ul li a,
 .sf-menu ul ul li a {
-	text-transform: none;
+	text-transform: none !important;
 	padding: .20em 1em!important;	
-	letter-spacing: 1px;
+	letter-spacing: 1px !important;
 	font-size: 14px!important;
 }
 .sf-menu li:hover a,
@@ -357,17 +357,17 @@ figure {
 .sf-menu ul li:hover a,
 .sf-menu ul li.sfHover a,
 .sf-menu li.active a {
-	color: $brand-primary;
+	color: $brand-primary !important;
 	// text-shadow: 2px 2px 1px rgba(0, 0, 0, .08);
 }
 .sf-menu ul li:hover,
 .sf-menu ul li.sfHover {
-	background: transparent;
+	background: transparent !important;
 }
 
 
 .sf-menu ul li {
-	background: transparent;
+	background: transparent !important;
 }
 .sf-arrows .sf-with-ul {
 	padding-right: 2.5em;
