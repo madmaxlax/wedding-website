@@ -2,12 +2,14 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@mui/material/styles';
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { HashRouter as Router } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 import './assets/css/index.css';
 import ScrollToTop from './components/ScrollToTop';
 import Routing from './Routing';
 import * as serviceWorker from './serviceWorker';
 import theme from './theme';
+
+const Router = process.env.REACT_APP_HASH_ROUTER !== 'true' ? BrowserRouter : HashRouter;
 
 const root = createRoot(document.getElementById('root') as HTMLElement);
 root.render(
