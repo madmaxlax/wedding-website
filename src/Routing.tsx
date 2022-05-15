@@ -85,7 +85,7 @@ const Routing = () => {
                   {/* <h1>Mawiage</h1> */}
                   <h2>Activities</h2>
                   <p>
-                    <span>Ideas on what to do while yall are in town</span>
+                    <span>Ideas for what to do while yall are in town</span>
                   </p>
                 </>
               }
