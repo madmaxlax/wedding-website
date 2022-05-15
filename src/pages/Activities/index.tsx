@@ -67,7 +67,8 @@ export const ActivitiesPage = () => {
                       Midlakes Navigation (formerly the mail boat for the lake!)
                     </a>
                     . Kayaking, swimming, all kinds of other options too!
-                    <p>Public swimming area in the village - Clift Park</p>
+                    <br />
+                    Public swimming area in the village - Clift Park
                   </p>
                   <p>
                     Events for labor day - parade, fireworks, &quot;World&#39;s Fair!&quot; - fair with games and rides

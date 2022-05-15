@@ -9,7 +9,7 @@ import Routing from './Routing';
 import * as serviceWorker from './serviceWorker';
 import theme from './theme';
 
-const Router = process.env.REACT_APP_HASH_ROUTER !== 'false' ? BrowserRouter : HashRouter;
+const Router = process.env.REACT_APP_HASH_ROUTER !== 'false' ? HashRouter : BrowserRouter;
 
 const root = createRoot(document.getElementById('root') as HTMLElement);
 root.render(

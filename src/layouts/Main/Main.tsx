@@ -21,6 +21,7 @@ const Main = (
       '/images/hawaii.jpeg',
       '/images/ring-pose.jpg',
       '/images/halloween.jpg',
+      '/images/halloween2.jpg',
       '/images/hennigan-lake.jpg',
       '/images/skantown.jpg',
       '/images/max-claire-lake.jpg',
@@ -109,7 +110,7 @@ const Main = (
                       <ul className="fh5co-sub-menu" style={{ width: '500' }}>
                         <li>
                           <a href="https://photos.app.goo.gl/PvqSWbQD7JycNDuq8" target="_blank" rel="noreferrer">
-                            Fun photos of us
+                            Fun photos
                           </a>
                         </li>
                         <li>
