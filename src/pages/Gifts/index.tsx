@@ -1,4 +1,3 @@
-import React from 'react';
 import '../../assets/sass/bootstrap.scss';
 import '../../assets/sass/style.scss';
 // import '../../assets/sass/_bootstrap-compass.scss';
@@ -66,6 +65,9 @@ https://www.alz.org/get-involved-now/donate"
                     Our honeymoon
                     <br />
                     Down payment on our future home
+                    <br />
+                    <br />
+                    P.S. We love Mezcal
                   </p>
                 </div>
               </div>
