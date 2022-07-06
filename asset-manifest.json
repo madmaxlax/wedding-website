@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2930634.css",
-    "main.js": "/static/js/main.cf9494ce.js",
+    "main.css": "/static/css/main.4b19933c.css",
+    "main.js": "/static/js/main.2d2aec4e.js",
     "static/media/icomoon.svg?srf3rx": "/static/media/icomoon.d8bb08cd812ea9df189b.svg",
     "static/media/icomoon.eot?srf3rx": "/static/media/icomoon.f53fba8098384bb57298.eot",
     "static/media/icomoon.woff?srf3rx": "/static/media/icomoon.a364de96ca8459f15b68.woff",
@@ -13,11 +13,11 @@
     "static/media/glyphicons-halflings-regular.woff2": "/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
     "index.html": "/index.html",
     "static/media/hourglass.svg": "/static/media/hourglass.35bf1ac4650924c9bd49.svg",
-    "main.d2930634.css.map": "/static/css/main.d2930634.css.map",
-    "main.cf9494ce.js.map": "/static/js/main.cf9494ce.js.map"
+    "main.4b19933c.css.map": "/static/css/main.4b19933c.css.map",
+    "main.2d2aec4e.js.map": "/static/js/main.2d2aec4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2930634.css",
-    "static/js/main.cf9494ce.js"
+    "static/css/main.4b19933c.css",
+    "static/js/main.2d2aec4e.js"
   ]
 }
