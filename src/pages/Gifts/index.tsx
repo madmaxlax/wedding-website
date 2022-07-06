@@ -1,3 +1,4 @@
+import React from 'react';
 import '../../assets/sass/bootstrap.scss';
 import '../../assets/sass/style.scss';
 // import '../../assets/sass/_bootstrap-compass.scss';
@@ -6,7 +7,7 @@ import '../../assets/sass/style.scss';
 
 export const GiftsPage = () => {
   return (
-    <>
+    <React.Fragment>
       <div id="fh5co-when-where" className="fh5co-section-gray">
         <div className="container">
           <div className="row">
@@ -75,6 +76,6 @@ https://www.alz.org/get-involved-now/donate"
           </div>
         </div>
       </div>
-    </>
+    </React.Fragment>
   );
 };
