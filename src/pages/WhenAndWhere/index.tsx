@@ -20,7 +20,7 @@ export const WhenAndWherePage = () => {
                 <div className="desc">
                   <h3>Welcome Drinks &amp; Dinner @ Skaneateles Brewery</h3>
                   <p>
-                    <strong>Friday evening, Sep 2 @ Skaneateles Brewery</strong>
+                    <strong>Friday evening, 7PM - 10PM Sep 2 @ Skaneateles Brewery</strong>
                   </p>
                   <p>
                     Join us for welcome drinks and dinner at{' '}
@@ -36,7 +36,7 @@ export const WhenAndWherePage = () => {
                     <br />
                     <a href="https://g.page/skanbrewery?share" target="_blank" rel="noreferrer">
                       4022 Mill Rd, Skaneateles, NY 13152
-                    </a>
+                    </a>. {"It's all ours starting at 8PM but it's open to the public before that so feel free to arrive early!"}
                   </p>
                 </div>
               </div>
@@ -47,7 +47,7 @@ export const WhenAndWherePage = () => {
                 <div className="desc">
                   <h3>Ceremony and Dinner @ The Bond 1835</h3>
                   <p>
-                    <strong>Saturday, Sep 3 @ The Bond 1835</strong>
+                    <strong>Saturday, 4:30PM Sep 3 @ The Bond 1835</strong>
                   </p>
                   <p>
                     Mawwiage and drinks and dancing at{' '}
@@ -69,9 +69,9 @@ export const WhenAndWherePage = () => {
               <div className="wedding-events">
                 <div className="ceremony-bg" style={{ backgroundImage: 'url(images/hennigan-lake.jpg)' }}></div>
                 <div className="desc">
-                  <h3>Sunday BBQ @ The Hennigan&apos;s!</h3>
+                  <h3>Sunday Brunch and BBQ @ The Hennigan&apos;s!</h3>
                   <p>
-                    <strong>Sunday, Sep 4</strong>
+                    <strong>Sunday, Sep 4 Brunch: 10:30AM BBQ starting at 4PM</strong>
                   </p>
                   <p>
                     More details to come!
