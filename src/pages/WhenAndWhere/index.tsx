@@ -74,7 +74,7 @@ export const WhenAndWherePage = () => {
                     <strong>Sunday, Sep 4 Brunch: 10:30AM BBQ starting at 4PM</strong>
                   </p>
                   <p>
-                    More details to come!
+                    Come by and be ready for a day hanging by (in) the lake!
                     <br />
                     <a href="https://goo.gl/maps/xeVZ9XFCjvdMEFE68" target="_blank" rel="noreferrer">
                       1557 Red Tail Ln, Skaneateles, NY 13152
