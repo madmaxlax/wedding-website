@@ -8,7 +8,7 @@ import { MapEmbed } from '../Accommodation/MapEmbed';
 
 export const TransportationPage = () => {
   return (
-    <>
+    <React.Fragment>
       <div id="fh5co-when-where" className="fh5co-section-gray">
         <div className="container">
           <div className="row">
@@ -31,6 +31,7 @@ export const TransportationPage = () => {
                     </a>{' '}
                     is the one of the eastern most Finger Lakes. It is about a 3.5 to 4 hour drive from NYC.
                     <br />
+                    <br />
                     The closest airport is Syracuse{' '}
                     <a
                       href="https://www.momondo.com/flight-search/TPA-SYR/2022-09-02/2022-09-05?sort=bestflight_a"
@@ -40,6 +41,7 @@ export const TransportationPage = () => {
                       SYR
                     </a>{' '}
                     (less than 40 minutes away).
+                    <br />
                     <br />
                     For more flight options, Rochester is about an hour away.
                   </p>
@@ -53,6 +55,10 @@ export const TransportationPage = () => {
                   <h3>Getting around at the Lake</h3>
                   <p>
                     <strong>Lots of driving!</strong>
+                  </p>
+                  <p>
+                    <strong>You will need a car to get around Skaneateles.</strong> Ubers are rarely available in the
+                    area.
                   </p>
                   <p>
                     {
@@ -70,6 +76,6 @@ export const TransportationPage = () => {
           </div>
         </div>
       </div>
-    </>
+    </React.Fragment>
   );
 };

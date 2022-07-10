@@ -5,7 +5,7 @@ import { MapEmbed } from '../Accommodation/MapEmbed';
 
 export const WhenAndWherePage = () => {
   return (
-    <>
+    <React.Fragment>
       <div id="fh5co-when-where" className="fh5co-section-gray">
         <div className="container">
           <div className="row">
@@ -27,7 +27,8 @@ export const WhenAndWherePage = () => {
                     <a href="https://skanbrewery.com/" target="_blank" rel="noreferrer">
                       Skaneateles Brewery
                     </a>
-                    . <br />
+                    . Food will be provided by Toss n Fire Pizza food truck
+                    <br /> (gf options available of course!) <br />
                     {/* We will have a food truck in for dinner from{' '}
                     <a href="https://www.tossnfirepizza.com/" target="_blank" rel="noreferrer">
                       Toss n Fire
@@ -36,7 +37,11 @@ export const WhenAndWherePage = () => {
                     <br />
                     <a href="https://g.page/skanbrewery?share" target="_blank" rel="noreferrer">
                       4022 Mill Rd, Skaneateles, NY 13152
-                    </a>. {"It's all ours starting at 8PM but it's open to the public before that so feel free to arrive early!"}
+                    </a>
+                    .{' '}
+                    {
+                      "It's all ours starting at 8PM but it's open to the public before that so feel free to arrive early!"
+                    }
                   </p>
                 </div>
               </div>
@@ -47,14 +52,18 @@ export const WhenAndWherePage = () => {
                 <div className="desc">
                   <h3>Ceremony and Dinner @ The Bond 1835</h3>
                   <p>
-                    <strong>Saturday, 4:30PM Sep 3 @ The Bond 1835</strong>
+                    <strong>
+                      Saturday, 4:30PM Sep 3 @{' '}
+                      <a href="https://www.thebond1835.com/" target="_blank" rel="noreferrer">
+                        The Bond 1835
+                      </a>
+                    </strong>
                   </p>
                   <p>
-                    Mawwiage and drinks and dancing at{' '}
-                    <a href="https://www.thebond1835.com/" target="_blank" rel="noreferrer">
-                      The Bond 1835
-                    </a>
-                    . <br />
+                    Ceremony at 4:30PM <i>sharp</i>
+                    <br />
+                    Drinks, dancing and dinner to follow!
+                    <br />
                     <br />
                     <a href="https://g.page/TheBond1835?share" target="_blank" rel="noreferrer">
                       2498 E Lake Rd, Skaneateles, NY 13152
@@ -114,6 +123,6 @@ export const WhenAndWherePage = () => {
           </div>
         </div>
       </div>
-    </>
+    </React.Fragment>
   );
 };
