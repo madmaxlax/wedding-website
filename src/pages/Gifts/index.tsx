@@ -39,12 +39,7 @@ export const GiftsPage = () => {
                       Chesapeake (Baltimore Area) Habitat for Humanity
                     </a>
                     <br />
-                    <a
-                      href="https://www.alz.org/get-involved-now/donate
-https://www.alz.org/get-involved-now/donate"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
+                    <a href="https://www.alz.org/?form=alz_donate" target="_blank" rel="noreferrer">
                       Alzheimer&apos;s Association
                     </a>
                     <br />
