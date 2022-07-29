@@ -23,12 +23,17 @@ export const WhenAndWherePage = () => {
                     <strong>Friday evening, 7PM - 10PM Sep 2 @ Skaneateles Brewery</strong>
                   </p>
                   <p>
+                    <strong>Attire:</strong> Casual! {'Brewery-chic'}
+                  </p>
+                  <p>
                     Join us for welcome drinks and dinner at{' '}
                     <a href="https://skanbrewery.com/" target="_blank" rel="noreferrer">
                       Skaneateles Brewery
                     </a>
                     . Food will be provided by Toss n Fire Pizza food truck
                     <br /> (gf options available of course!) <br />
+                    Also, Max found some live music for the evening that he is very excited about.
+                    <br />
                     {/* We will have a food truck in for dinner from{' '}
                     <a href="https://www.tossnfirepizza.com/" target="_blank" rel="noreferrer">
                       Toss n Fire
@@ -38,10 +43,7 @@ export const WhenAndWherePage = () => {
                     <a href="https://g.page/skanbrewery?share" target="_blank" rel="noreferrer">
                       4022 Mill Rd, Skaneateles, NY 13152
                     </a>
-                    .{' '}
-                    {
-                      "It's all ours starting at 8PM but it's open to the public before that so feel free to arrive early!"
-                    }
+                    . {''}
                   </p>
                 </div>
               </div>
@@ -58,6 +60,10 @@ export const WhenAndWherePage = () => {
                         The Bond 1835
                       </a>
                     </strong>
+                  </p>
+                  <p>
+                    <strong>Attire:</strong> Semi-formal, but opt for comfort! We will be on grass all evening, so no
+                    stilettos! Be prepared for it to get cooler as night falls.
                   </p>
                   <p>
                     Ceremony at 4:30PM <i>sharp</i>
@@ -82,6 +88,10 @@ export const WhenAndWherePage = () => {
                   <p>
                     <strong>Sunday, Sep 4 Brunch: 10:30AM BBQ starting at 4PM</strong>
                   </p>
+
+                  <p>
+                    <strong>Attire:</strong> Swim trunks, flippy floppies. No shoes, no shirt, no problem!
+                  </p>
                   <p>
                     Come by and be ready for a day hanging by (in) the lake!
                     <br />
@@ -102,7 +112,11 @@ export const WhenAndWherePage = () => {
                     <strong>Sunday All Day</strong>
                   </p>
                   <p>
-                    It&apos;s labor day, so there are all kinds of activities going on in town!
+                    It&apos;s labor day, so there are all kinds of activities going on{' '}
+                    <a href="https://www.google.com/maps?q=skaneateles" target="_blank" rel="noreferrer">
+                      in town
+                    </a>
+                    !
                     <br />
                     🎉&nbsp;&nbsp;&nbsp; Parade
                     <br />
