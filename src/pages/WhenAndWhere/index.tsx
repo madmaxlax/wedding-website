@@ -24,6 +24,8 @@ export const WhenAndWherePage = () => {
                   </p>
                   <p>
                     <strong>Attire:</strong> Casual! {'Brewery-chic'}
+                    <br />
+                    Speeches encouraged from any and all!
                   </p>
                   <p>
                     Join us for welcome drinks and dinner at{' '}
@@ -32,7 +34,7 @@ export const WhenAndWherePage = () => {
                     </a>
                     . Food will be provided by Toss n Fire Pizza food truck
                     <br /> (gf options available of course!) <br />
-                    Also, Max found some live music for the evening that he is very excited about.
+                    Also, Max found some live music for the evening that he is very excited about 🤠
                     <br />
                     {/* We will have a food truck in for dinner from{' '}
                     <a href="https://www.tossnfirepizza.com/" target="_blank" rel="noreferrer">
